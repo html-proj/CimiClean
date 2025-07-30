@@ -5,7 +5,18 @@ body {
   color: #333;
   padding-top: 100px;
 }
+header{
+     background-color: #86f7ea;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
 
+}
+header p{ 
+  margin: 0;
+font-size: 14px;
+}
 .logo {
   position: fixed;
   top: 20px;
@@ -153,4 +164,18 @@ form button {
   padding: 12px 20px;
   cursor: pointer;
   border-radius: 8px;
+}
+footer {
+    background-color: #86f7ea;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
