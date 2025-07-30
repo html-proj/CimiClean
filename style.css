@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #dbf4f6;
+  color: #333;
+  padding-top: 100px;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  color: white;
+  background: #00ffff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  z-index: 1000;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* HERO (giriş bölümü) */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #007c91;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* HİZMETLER */
+.services {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.services h2 {
+  text-align: center;
+  color: #006064;
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.service-card {
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #444;
+}
+
+/* MÜŞTERİ YORUMLARI / GÜZEL SÖZLER */
+.testimonials {
+  background-color: #e0f2f1;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #004d40;
+  margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  font-size: 16px;
+  color: #555;
+  margin: 15px auto;
+  max-width: 600px;
+  position: relative;
+}
+
+.testimonials blockquote::before {
+  content: "“";
+  font-size: 30px;
+  color: #00bfa5;
+  position: absolute;
+  left: -20px;
+}
+
+.testimonials blockquote::after {
+  content: "”";
+  font-size: 30px;
+  color: #00bfa5;
+  position: absolute;
+  right: -20px;
+}
+
+
+section {
+  margin-bottom: 40px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  background-color: #00cccc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
