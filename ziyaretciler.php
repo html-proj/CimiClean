@@ -1,4 +1,6 @@
 <?php
+<td>" . htmlspecialchars($satir['adsoyad']) . "</td>
+
 $baglanti = new mysqli("localhost", "root", "", "cimiclean");
 
 if ($baglanti->connect_error) {
